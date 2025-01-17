@@ -1,0 +1,98 @@
+.contextContainer{
+   display: flex;
+   background:  #f3cab6;
+   overflow: hidden;
+
+}
+.contextHeader{
+     width: 40%;
+     padding: 3rem 5rem 5rem 13rem;
+}
+.contextText{
+     h1{
+        font-size: 9.5rem;
+        span{
+            font-weight: 500;
+
+        }
+     }
+
+}
+.contextPara{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Assistant", serif;
+    font-optical-sizing: auto;
+    margin-bottom: 1.7rem;
+    word-spacing: 1px;
+}
+
+.contextLink{
+    p{
+        font-size: 1.3rem;
+        margin: .8rem 0 2rem 0;
+        font-family: "Assistant", serif;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        a{
+           color: black;
+           text-decoration: none;
+           border-bottom: 1px solid black;
+        }
+    }
+}
+.contextButton button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    border:1px solid #000;
+    color: rgb(63, 63, 63);
+    background: transparent;
+}
+
+.contextImages
+{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0rem;
+    position: relative;
+}
+.contextImage{
+    width: 65%;
+    height: 55rem;
+    background: #000;
+    z-index: 300;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.bgDivdotted{
+    width: 25%;
+    height: 60%;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: -25%;
+}
+.bgDivbottom{
+    width: 130%;
+    height: 28%;
+    background: #f9e1d5;
+    position: absolute;
+    bottom: 0;
+
+}
+.bgDivtop{
+    width: 45%;
+    height: 55%;
+    background: #f9e1d5;
+    position: absolute;
+    top: .7rem;
+    right: 8rem;
+}

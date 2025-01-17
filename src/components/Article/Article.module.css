@@ -1,0 +1,34 @@
+.ArticleContainer{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 10rem;
+}
+.ArticleHeaders{
+     text-align: center;
+
+     h1{
+        font-size: 5rem;
+        letter-spacing:2.5rem;
+     }
+     h2{
+        font-size: 4.7rem;
+        letter-spacing:2.2rem;
+
+        &::first-letter{
+            color: #fad4c0;
+        }
+     }
+}
+.ArticlePara{
+  font-size: 1.3rem;
+  color:#d2a981;
+  text-align: center;
+  width: 50%;
+  line-height: 2rem;
+  margin-top: 1rem;
+  font-family: "Assistant", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
