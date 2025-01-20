@@ -9,7 +9,7 @@ export default function Tours() {
       <div className={style.tourCards}>
         <div className={style.Card}>
           <div className={style.tourImage}>
-            <img src="../../../public/card2.jpeg" />
+            <img src="../../../assets/card2.jpeg" />
           </div>
           <div className={style.tourText}>
             Our all Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -28,7 +28,7 @@ export default function Tours() {
                 <p>PHOTO TOURS</p>
             </div>
             <div className={style.tourImage2}>
-                   <img src="../../../public/card1.jpeg" />
+                   <img src="../../../assets/card1.jpeg" />
             </div>
         </div>
       </div>

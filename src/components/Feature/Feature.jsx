@@ -21,7 +21,7 @@ export default function Feature() {
     </div>
     <div className={style.featureBgdiv}></div>
       <div className={style.featureImage}>
-         <img  src="../../../public/selfie.jpeg" />
+         <img  src="../../../assets/selfie.jpeg" />
         </div>
     </div>
   );

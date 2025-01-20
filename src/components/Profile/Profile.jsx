@@ -32,7 +32,7 @@ export default function Profile() {
       </div>
     </div>
     <div className={style.Gallery}>
-         <img src="../../../public/gallery.jpeg" />
+         <img src="../../../assets/gallery.jpeg" />
     </div>
     </>
   );

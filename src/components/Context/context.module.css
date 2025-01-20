@@ -63,7 +63,6 @@
 .contextImage{
     width: 65%;
     height: 55rem;
-    background: #000;
     z-index: 300;
     position: relative;
     img{

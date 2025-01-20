@@ -16,7 +16,7 @@ export default function Blogpost() {
           <div className={style.blogdiv}></div>
       </div>
         <div className={style.blogImage}>
-          <img src="../../../public/blogspot.jpeg" />
+          <img src="../../../assets/blogspot.jpeg" />
         </div>
         <div className={style.blogContent}>
           <div className={style.blogText}>

@@ -44,7 +44,7 @@ export default function Contact() {
       </div>
       <div className={style.contactBgdiv}></div>
       <div className={style.contactImage}>
-        <img src="../../../public/contact.jpeg"/>
+        <img src="../../../assets/contact.jpeg"/>
       </div>
     </div>
   );
