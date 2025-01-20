@@ -75,6 +75,15 @@ object-fit: cover;
     background: #000;
     color: white;
     border: 0;
+
+
+
+    transition: .5s all ease-in-out;
+
+    &:hover{
+        background: #f9e1d5;
+       color: black;
+    }
 }
 .profileBgdiv{
     width: 25rem;

@@ -49,6 +49,22 @@
             display: flex;
             align-items: center;
             gap: 1rem;
+
+            span{
+               padding: .3rem;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               transition: .5s all ease-in-out;
+               border-radius: 50%;
+   
+   
+               }
+              span:hover{
+               background: #000;
+               color: white;
+               transform: translateY(-10px);
+              }
           
             span{
                 background: #000;

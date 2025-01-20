@@ -49,6 +49,12 @@
             border:1px solid #000;
             background: #f3cab6;
             color: rgb(63, 63, 63);
+            transition: .5s all ease-in-out;
+
+            &:hover{
+                background: #f9e1d5;
+               border: 0;
+            }
         }
     }
 
