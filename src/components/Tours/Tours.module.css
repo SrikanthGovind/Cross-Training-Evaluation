@@ -58,10 +58,6 @@
     }
 }
 
-
-
-
-
 .tourBgdiv{
     position: absolute;
 width: 75%;
@@ -69,3 +65,41 @@ background: #f9e1d5;
 height: 20rem;
 top: 14rem;
 }
+@media (min-width:360px) and (max-width:460px){
+    .toursContainer{
+       .tourCards{
+           width: 80%;
+       }
+       .tourBgdiv{
+           width: 90%;
+       }
+    }
+}
+
+@media (min-width:461px) and (max-width:760px){
+     .toursContainer{
+        .tourCards{
+            width: 90%;
+            .Card{
+                .tourText{
+                    width: 100%;
+                }
+            }
+        }
+        .tourBgdiv{
+            width: 90%;
+            height: 15rem;
+            top: 12rem;
+        }
+     }
+ }
+ @media (min-width:761px) and (max-width:1024px){
+    .toursContainer{
+        .tourCards{
+            width: 65%;
+        }
+        .tourBgdiv{
+            top: 12rem;
+        }
+    }
+ }

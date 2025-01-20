@@ -18,5 +18,19 @@ margin-left: 3rem;
 display: flex;
 align-items: center;
 
+}
 
+@media(min-width:360px) and (max-width:460px){
+
+     .header{
+      padding:1rem  0;
+      margin-right: 1rem;
+     }
+}
+@media (min-width:461px) and (max-width:760px){
+  .header{
+    margin-right: 1rem;
+    padding:2rem  0;
+
+  }
 }

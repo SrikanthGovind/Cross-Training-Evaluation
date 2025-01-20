@@ -20,7 +20,8 @@ export default function Context() {
     <div className={style.contextImages}>
         <div className={style.contextImage}>
           <img src="../../../public/mainpage.jpeg"/>
-          <div className={style.bgDivdotted}>            
+          <div className={style.bgDivdotted}>      
+
           </div>
         </div>
         <div className={style.bgDivbottom}></div>

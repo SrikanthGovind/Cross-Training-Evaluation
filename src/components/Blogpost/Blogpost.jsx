@@ -12,7 +12,9 @@ export default function Blogpost() {
         </h1>
       </div>
       <div className={style.blogWrapper}>
-      <div className={style.blogBgdiv}></div>
+      <div className={style.blogBgdiv}>
+          <div className={style.blogdiv}></div>
+      </div>
         <div className={style.blogImage}>
           <img src="../../../public/blogspot.jpeg" />
         </div>

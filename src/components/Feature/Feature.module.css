@@ -60,9 +60,9 @@
 .featureImage{
     position: absolute;
     width: 45%;
-    right: 13rem;
-    top: 5.5rem;
-    height: 30rem;
+    right: 17rem;
+    top: 15%;
+    height: 65%;
 
     img{
         width: 100%;
@@ -71,4 +71,106 @@
     };
 }
 
+@media(min-width:360px) and (max-width:460px){
+    .featureContainer{
+        .featureWrapper{
+            width: 100%;
+            justify-content: flex-start;
+            padding: 8rem 4rem 8rem 2rem;
+        }
+        .featureImage{
+          display: none;
+        }
+    }
+}
+@media (min-width:461px) and (max-width:760px){
+    .featureContainer{
+         /* flex-direction: column; */
+          .featureWrapper{
+            width: 50%;
+            justify-content: flex-start;
+            padding: 2rem;
+              .Wrapperdiv{
+               width: 100%;
+                margin: 2rem;
+                 p{
+                    font-size: 1.7rem;
+                 }
+              }
+          }
+          .featureBgdiv{
+            display: none;
+          }
+          .featureImage{
+              right: 5rem;
+              width: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: auto;
+              background:#f3cab6; 
 
+              img{
+                width: 70%;
+                height: auto;
+              }
+              position: static;
+          }
+    }
+}
+@media (min-width:761px) and (max-width:1024px){
+  .featureContainer{
+    .featureWrapper{
+        padding: 4rem;
+    }
+    .featureImage{
+        top: 17%;
+        right: 10rem;
+    }
+  }
+}
+
+@media (min-width:1024px) and (max-width: 1279px)  {
+    .featureContainer{
+        .featureWrapper{
+            padding: 6rem;
+        }
+        .featureImage{
+            width:40%;
+            height:77%;
+            top: 13%;
+            right: 17rem;
+        }
+      }
+}
+
+@media (min-width:1279px) and (max-width:1500px){
+    .featureContainer{
+        .featureWrapper{
+            padding: 8rem;
+        }
+        .featureImage{
+            width: 45%;
+    right: 15rem;
+    top: 15%;
+    height: 65%;
+        }
+      }
+}
+@media (min-width:1501px){
+.featureContainer{
+    .featureImage{
+        position: absolute;
+        width: 45%;
+        right: 15rem;
+        top: 15%;
+        height: 65%;
+    
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        };
+    }
+}
+}

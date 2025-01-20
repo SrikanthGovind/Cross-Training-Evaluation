@@ -104,3 +104,43 @@
       height: 100%;
     }
 }
+@media(min-width:360px) and (max-width:460px){
+
+.contactWrapper
+{
+    padding: 4rem;
+}
+.contactImage{
+   top: 20%;
+   right: 10rem;
+height: 60%;
+bottom: 20%;
+}
+}
+
+@media (min-width:461px) and (max-width:760px){
+
+
+   .contactWrapper
+   {
+       padding: 4rem;
+   }
+   .contactImage{
+      top: 20%;
+      right: 11rem;
+   height: 60%;
+   bottom: 20%;
+   }
+}
+
+@media (min-width:761px) and (max-width:1024px){
+   .contactWrapper
+   {
+       padding: 8rem;
+   }
+   .contactImage{
+      top: 15%;
+   height: 60%;
+   bottom: 15%;
+   }
+}

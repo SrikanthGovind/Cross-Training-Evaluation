@@ -85,3 +85,58 @@ object-fit: cover;
     left: 24%;
     bottom: 8rem;
 }
+
+
+@media(min-width:360px) and (max-width:460px){
+  .profileContainer{
+      padding: 3rem 3rem 6rem 3rem;
+
+      .profileBgdiv{
+        left: 15%;
+      }
+      .profileTextHead{
+        width: 50%
+        ;
+      }
+      .profileTextpara{
+        width: 80%;
+      }
+  }  
+  .Gallery{
+    height: auto;
+    border: 5px solid white;
+  }
+}
+
+@media (min-width:461px) and (max-width:760px){
+    .profileContainer{
+        padding: 3rem 3rem 6rem 3rem;
+  
+        .profileBgdiv{
+          left: 15%;
+        }
+        .profileTextHead{
+          width: 50%
+          ;
+        }
+        .profileTextpara{
+          width: 80%;
+        }
+    }  
+    .Gallery{
+      height: auto;
+      border: 5px solid white;
+    }
+
+}
+@media (min-width:761px) and (max-width: 1024px)  {
+.profileContainer{
+    padding: 7rem 3rem;
+}
+
+    .Gallery{
+        height: auto;
+        border: 5px solid white;
+      } 
+
+}

@@ -32,3 +32,36 @@
   font-style: normal;
 
 }
+
+@media (min-width: 360px) and (max-width: 460px) {
+   .ArticleHeaders h1 {
+      font-size: 4rem; 
+   }
+
+   .ArticlePara {
+      width: 90%; 
+      font-size: 1.4rem; 
+   }
+}
+
+@media (min-width: 461px) and (max-width: 760px) {
+   .ArticleContainer{
+      padding: 8rem;
+   }
+   .ArticleHeaders h1 {
+      font-size: 5rem;
+   }
+
+   .ArticlePara {
+      width: 100%;
+      font-size: 1.6rem; 
+   }
+}
+
+@media (min-width:761px) and (max-width:1024px){
+   .ArticleContainer{
+      .ArticlePara{
+         width: 70%;
+      }
+   }
+}

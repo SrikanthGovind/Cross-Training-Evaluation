@@ -27,10 +27,10 @@
 
 .blogImage{
     width: 46rem;
-    height: 33rem;
+    height: 30rem;
     position:absolute;
-    left: 15rem;
-    top: 4rem;
+    left: 14rem;
+    top: 5rem;
 
     img{
         width: 100%;
@@ -131,4 +131,149 @@
    justify-content: center;
    margin-bottom: .8rem;
 
+}
+
+@media (min-width:360px) and (max-width:460px){
+    .blogpostContainer{
+        .blogWrapper{
+            padding: 6rem;
+          flex-direction: column;
+        }
+          .blogImage{
+              width: 100%;
+              position: static;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              img{
+                width: 20rem;
+                height: 20rem;
+               border-radius: 50%;
+              }
+          }
+          .blogBgdiv{
+           display: none;
+          }
+          .blogContent{
+            width: 100%;
+          }
+          
+          .blogCardsCon{
+            position: static;
+            flex-wrap: wrap;
+            .blogCard{
+                width: 40%;
+
+            }
+          }
+    }
+ }
+ @media (min-width:461px) and (max-width:760px){
+    .blogpostContainer{
+        .blogWrapper{
+            padding: 6rem;
+          flex-direction: column;
+        }
+          .blogImage{
+              width: 100%;
+              position: static;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              img{
+                width: 25rem;
+                height: 25rem;
+               border-radius: 50%;
+              }
+          }
+          .blogBgdiv{
+           display: none;
+          }
+          .blogContent{
+            width: 100%;
+          }
+          
+          .blogCardsCon{
+            position: static;
+            flex-wrap: wrap;
+            .blogCard{
+                width: 40%;
+
+            }
+          }
+    }
+ }
+ @media (min-width:761px) and (max-width:1024px){
+    .blogpostContainer{
+        .blogWrapper{
+            padding: 7rem;
+        }
+        .blogImage{
+            width: 38%;
+            height: auto;
+            left: 16rem;
+            top:auto;
+        }
+        .blogBgdiv{
+            width: 34rem;
+            height: 34rem;
+          }
+        .blogCard{
+            width: 20%;
+            padding: 2rem;
+        }
+    }
+ }
+ @media (min-width:1025px) and (max-width:1279px){
+    .blogpostContainer{
+        .blogWrapper{
+            padding: 8rem;
+        }
+        .blogImage{
+            width: 40%;
+            height: auto;
+            left: 14rem;
+            top: 8rem;
+        }
+        .blogBgdiv{
+            width: 40rem;
+            height: 40rem;
+          }
+       
+    }
+}
+@media (min-width:1280px) and (max-width:1500px){
+    .blogpostContainer{
+        .blogWrapper{
+            padding: 10rem;
+        }
+        .blogImage{
+            width: 45%;
+            height: auto;
+            left: 10rem;
+            top: 10rem;
+        }
+        .blogBgdiv{
+            width: 45rem;
+            height: 45rem;
+          }
+       
+    }
+}
+@media (min-width:1501px) and (max-width:1750px){
+    .blogpostContainer{
+        .blogWrapper{
+            padding: 10rem;
+        }
+        .blogImage{
+            width: 45rem;
+            left: 7rem;
+            top:auto;
+        }
+        .blogBgdiv{
+            width: 40rem;
+            height: 40rem;
+          }
+       
+    }
 }
