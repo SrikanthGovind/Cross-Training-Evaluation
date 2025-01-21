@@ -4,7 +4,7 @@ export default function Feature() {
     <div className={style.featureContainer}>
     <div className={style.featureWrapper}>
 
-      <div className={style.Wrapperdiv}>
+        <div className={style.Wrapperdiv}>
         <p>
           The Emotions and slow philosophy as the root where the essence of each
           project originates
@@ -19,7 +19,6 @@ export default function Feature() {
         </div>
       </div>
     </div>
-    <div className={style.featureBgdiv}></div>
       <div className={style.featureImage}>
          <img  src="../../../assets/selfie.jpeg" />
         </div>

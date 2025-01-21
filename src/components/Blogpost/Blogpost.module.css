@@ -16,14 +16,16 @@
     padding: 10rem ;
    position: relative;
 
-   .blogBgdiv{
-    width: 35rem;
+   &::before{
+  content: '';
+  width: 35rem;
     height: 35rem;
     border-radius: 50%;
     background: #f3cab6;
      display: flex;
      align-items: center;
-}
+   }
+
 
 .blogImage{
     width: 46rem;

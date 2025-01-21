@@ -1,11 +1,17 @@
 .ContactContainer{
   display: flex;
   position: relative;
+
+  &::after{
+   content: '';
+   width: 40%;
+   background:  #f3cab6;
+  }
 }
 .contactWrapper{
      width: 60%;
      background: #f9e1d5;
-     padding: 8rem 12rem;     
+     padding: 8% 12%;     
 
      .Wrapperdiv{
         width: 50%;
@@ -104,10 +110,7 @@
              
     }
 }
-.contactBgdiv{
-   width: 40%;
-   background:  #f3cab6;
-}
+
 .contactImage{
     width: 42%;
     height: 80%;
@@ -120,43 +123,35 @@
       height: 100%;
     }
 }
-@media(min-width:360px) and (max-width:460px){
 
-.contactWrapper
-{
-    padding: 4rem;
-}
-.contactImage{
-   top: 20%;
-   right: 10rem;
-height: 60%;
-bottom: 20%;
-}
-}
-
-@media (min-width:461px) and (max-width:760px){
-
-
-   .contactWrapper
-   {
-       padding: 4rem;
-   }
-   .contactImage{
-      top: 20%;
-      right: 11rem;
-   height: 60%;
-   bottom: 20%;
-   }
-}
-
-@media (min-width:761px) and (max-width:1024px){
+@media  (max-width:1024px){
    .contactWrapper
    {
        padding: 8rem;
    }
    .contactImage{
-      top: 15%;
+      top: 20%;
    height: 60%;
-   bottom: 15%;
+   bottom: 20%;
    }
 }
+
+
+@media (max-width:760px){
+   .contactWrapper
+   {
+       padding: 4rem;
+      
+       .Wrapperdiv{
+         width: 65%;
+       }
+   }
+  
+   .contactImage{
+      top: 25%;
+      right: 12%;
+   height: 50%;
+   bottom: 25%;
+   }
+}
+

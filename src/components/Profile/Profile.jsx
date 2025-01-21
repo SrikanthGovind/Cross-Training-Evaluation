@@ -3,7 +3,6 @@ export default function Profile() {
   return (
     <>
     <div className={style.profileContainer}>
-      <div className={style.profileBgdiv}></div>
       <div className={style.profileContent}>
         <div className={style.profileImage}>
           <img src="https://img.freepik.com/free-photo/people-joy-happiness-concept-horizontal-happy-cheerful-fashionable-young-brunette-african-american-woman-grinning-broadly-feeling-happy-after-good-shopping-sale_344912-1002.jpg?t=st=1737119364~exp=1737122964~hmac=cdbcddfbf97893d31b6ee122470bf2912d13d920cd2f31a1c8acd590d4fbe3b0&w=2000" />

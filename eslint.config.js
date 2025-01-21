@@ -3,10 +3,11 @@ import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
-
+ 
 export default [
   { ignores: ['dist'] },
   {
+    
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       ecmaVersion: 2020,
@@ -33,6 +34,15 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'indent': ['error', 2, { SwitchCase: 1 }],
+      "react/jsx-indent": [
+        1,
+        4
+    ],
+    "react/jsx-indent-props": [
+        1,
+        4
+    ],
     },
   },
 ]

@@ -6,15 +6,12 @@ import { GiPikeman } from "react-icons/gi";
 export default function Blogpost() {
   return (
     <div className={style.blogpostContainer}>
-      <div className={style.blogHeader}>
-        <h1>
+        <div className={style.blogHeader}>
+           <h1>
           Creative <span>Portraits</span>
         </h1>
       </div>
       <div className={style.blogWrapper}>
-      <div className={style.blogBgdiv}>
-          <div className={style.blogdiv}></div>
-      </div>
         <div className={style.blogImage}>
           <img src="../../../assets/blogspot.jpeg" />
         </div>

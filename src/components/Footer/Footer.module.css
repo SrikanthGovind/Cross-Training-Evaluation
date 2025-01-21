@@ -26,3 +26,11 @@
         text-align: center;
      }
 }
+@media (max-width:767px){
+  .Footer{
+
+   p:nth-child(1){
+      width: 50%;
+   }
+  }
+}

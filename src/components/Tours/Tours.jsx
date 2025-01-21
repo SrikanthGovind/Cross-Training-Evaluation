@@ -32,7 +32,6 @@ export default function Tours() {
             </div>
         </div>
       </div>
-      <div className={style.tourBgdiv}></div>
     </div>
   );
 }

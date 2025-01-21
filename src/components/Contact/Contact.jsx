@@ -16,7 +16,7 @@ export default function Contact() {
         <div className={style.socialMedia}>
           <h1>FOLLOW US</h1>
           <div className={style.socialIcons}>
-            <span>
+                            <span>
               <FaFacebookF />
             </span>
             <span>
@@ -42,7 +42,6 @@ export default function Contact() {
         </div>          
       </div>
       </div>
-      <div className={style.contactBgdiv}></div>
       <div className={style.contactImage}>
         <img src="../../../assets/contact.jpeg"/>
       </div>

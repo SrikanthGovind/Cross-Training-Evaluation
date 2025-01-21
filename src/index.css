@@ -3,4 +3,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 150rem;
+}
+
+@media (min-width:1025px){
+  :root{
+    font-size: 100%;
+   }
+}
+@media (max-width:1024px){
+  :root{
+    font-size: 70%;
+   }
+}
+@media (max-width:990px){
+  :root{
+    font-size: 60%;
+   }
+}
+@media(max-width:767px){
+  :root{
+   font-size: 50%;
+  }
 }
