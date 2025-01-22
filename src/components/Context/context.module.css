@@ -2,7 +2,7 @@
    display: flex;
    background:  #f3cab6;
    overflow: hidden;
-
+   min-width: 40rem;
 }
 .contextHeader{
      width: 40%;

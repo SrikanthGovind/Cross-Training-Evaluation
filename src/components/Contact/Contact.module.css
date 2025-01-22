@@ -1,6 +1,8 @@
 .ContactContainer{
   display: flex;
   position: relative;
+  min-width: 40rem;
+
 
   &::after{
    content: '';

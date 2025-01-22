@@ -1,6 +1,8 @@
 .blogpostContainer{
    position: relative;
    margin-top: 3rem;
+  min-width: 40rem;
+
 }
 .blogHeader{
     font-size: 2.8rem;
