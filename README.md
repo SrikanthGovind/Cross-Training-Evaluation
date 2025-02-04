@@ -63,6 +63,9 @@ To view the project locally:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/user-attachments/assets/cdbc50ee-f7f8-4489-bb93-7cb84ca6f510 )
+![App Screenshot](https://github.com/user-attachments/assets/055c865d-d773-4cf2-9368-f7c1a2e91b48 )
+![App Screenshot](https://github.com/user-attachments/assets/6b0a1923-c1da-4ee1-8bf1-468727155276)
+![App Screenshot](https://github.com/user-attachments/assets/1a471667-eaa3-45a1-a12e-8bfb56827159 )
 
 
