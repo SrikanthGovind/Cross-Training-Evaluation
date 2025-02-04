@@ -19,7 +19,7 @@ A modern, responsive web application built with HTML,CSS ,Javascript and React. 
 
 ## Live Demo
 
-You can view a live version of the project here: [https://polite-choux-d690c2.netlify.app/](#)
+You can view a live version of the project here: [Click for Live demo](https://polite-choux-d690c2.netlify.app/)
 
 ## Installation
 
