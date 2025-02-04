@@ -1,5 +1,6 @@
 import style from "./Article.module.css";
 export default function Article() {
+
     return (
         <div className={style.ArticleContainer}>
             <div className={style.ArticleHeaders}>

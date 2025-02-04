@@ -22,16 +22,18 @@
 
    .blogBgdiv{
     width: 30rem;
-    height: 30rem;
+    height:30rem;
+    position: relative;
 
    &::before{
-  content: '';
+    content: '';
      width: 100%;
-    height: 100%;
+    height:100%;
     border-radius: 50%;
     background: #f3cab6;
      display: flex;
      align-items: center;
+     position: absolute;
 }
    }
 
@@ -145,8 +147,7 @@
    justify-content: center;
    margin-bottom: .8rem;
 }
-
-@media (min-width:1025px)and (max-width:1500px){
+@media (min-width:1025px) and (max-width:1500px){
     .blogpostContainer{
         .blogWrapper{
             .blogBgdiv{
@@ -162,6 +163,7 @@
         }
     }
 }
+
  @media  (max-width:1024px){
     .blogpostContainer{
         .blogWrapper{
@@ -217,3 +219,4 @@
           }
     }
  }
+

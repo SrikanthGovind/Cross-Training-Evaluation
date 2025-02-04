@@ -1,7 +1,6 @@
 .contextContainer{
    display: flex;
    background:  #f3cab6;
-   overflow: hidden;
    min-width: 40rem;
 }
 .contextHeader{
@@ -73,7 +72,8 @@
         background: #f9e1d5;
         position: absolute;
         bottom: 0;
-        padding: 0 6rem;
+        right: 0;
+        padding: 0 0 0 5rem;
     }
     &::before{
         content: '';
@@ -158,7 +158,8 @@
            justify-content: center;
            &::after{
             height: 30%;
-            
+            right: auto;
+            padding: 0 0 0 6rem;           
         }
         &::before{
           width: 35%;

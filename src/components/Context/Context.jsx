@@ -1,4 +1,4 @@
-import style from "./context.module.css";
+import style from "./Context.module.css";
 export default function Context() {
     return (
         <div className={style.contextContainer}>

@@ -3,6 +3,7 @@ import { CiBullhorn } from "react-icons/ci";
 import { LiaLaughBeam } from "react-icons/lia";
 import { IoBulbOutline } from "react-icons/io5";
 import { GiPikeman } from "react-icons/gi";
+
 export default function Blogpost() {
     return (
         <div className={style.blogpostContainer}>
@@ -12,7 +13,8 @@ export default function Blogpost() {
                 </h1>
             </div>
             <div className={style.blogWrapper}>
-                <div className={style.blogBgdiv}></div>
+                <div className={style.blogBgdiv}>
+                </div>
                 <div className={style.blogImage}>
                     <img src="../../../assets/blogspot.jpeg" />
                 </div>
